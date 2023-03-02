@@ -30,7 +30,7 @@ npm i
 npm run serve
 ```
 
-<p style='text-align: justify;'> Esto levantará un servidor de desarrollo localhost en el puerto 8084 </p> 
+<p style='text-align: justify;'> Esto levantará un servidor de desarrollo localhost en el puerto 8080 </p> 
 
 
 ## Construcción
