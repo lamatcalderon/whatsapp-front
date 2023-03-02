@@ -1,0 +1,35 @@
+@import "../../../assets/styles/variables";
+
+.info-user {
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1em;
+
+    .avatar {
+        border-radius: $per-50;
+        cursor: pointer;
+        height: $pix-40;
+        width: $pix-40;
+
+        .image {
+            border-radius: $per-50;
+            width: $per-100;
+        }
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+
+        span:first-child {
+            font-size: 1em;
+            color: var(--panel-header-info-contact-alias-font-color);
+        }
+
+        span:last-child {
+            font-size: 0.8em;
+            color: var(--panel-header-info-contact-on-line-font-color);
+        }
+    }
+}

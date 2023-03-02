@@ -1,0 +1,10 @@
+.whatsapp {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 35em) {
+    .whatsapp {
+        flex-direction: row;
+    }    
+}

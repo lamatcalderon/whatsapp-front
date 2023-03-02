@@ -1,0 +1,47 @@
+@import "../../../../../../assets/styles/variables";
+@import "../../../../../../assets/styles/whatsapp/animation-keyframes";
+
+.overlay-intro {
+    align-items: center;
+    display: flex;
+    height: $per-100;
+    justify-content: center;
+
+    .overlay-intro-content {
+        align-items: center;
+        display: flex;
+        flex-direction: column;        
+        max-width: $per-80;
+        text-align: center;
+
+        .intro-image {
+            animation: keyframe-scale-show 0.5s;
+            display: flex;
+            justify-content: center;
+            padding: 0 1em;
+
+            img {
+                border-radius: $per-50;
+                width: $per-100;
+            }
+        }
+
+        .title-message {
+            color: var(--panel-overlay-intro-title-message-font-color);
+            font-size: 2rem;
+            padding: 0.5em 0 0.3em 0;
+        }
+
+        .intro-message {
+            color: var(--panel-overlay-intro-message-font-color);
+            font-size: 0.9em;
+            padding: 0.3em 0;
+        }
+
+        .footer-message {
+            color: var(--panel-overlay-intro-message-font-color);
+            font-size: 0.9em;
+            padding: 3em 0.3em 0 0.3em;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+@import '../../../../../../../assets/styles/variables';
+
+.#{$app-prefix}-quoted-message {
+    background-color: var(--panel-quoted-message-from-me-background-color);
+    border-radius: $pix-7;
+    border-left: $pix-5 solid #53BDEB;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: $pix-54;
+    max-height: $pix-90;
+    margin-bottom: $pix-5;
+
+    &.no-from-me {
+        background-color: var(--panel-quoted-message-no-from-me-background-color);
+    }
+
+    .content {
+        color: var(--panel-quoted-conversation-font-color);
+        font-size: 0.9em;
+        padding: 0 0.5em;
+        position: relative;
+        width: $per-100;
+        
+        .participant {
+            color: #53BDEB;
+            font-size: 0.8rem;
+            font-weight: 600;
+            padding: 0.3em 0;
+        }
+    }
+
+    .preview {
+        height: $pix-54;
+        width: $pix-54;
+
+        .image {
+            border-radius: 0 $pix-7 $pix-7 0;
+            height: $per-100;
+            width: $per-100;
+        }
+    }
+}

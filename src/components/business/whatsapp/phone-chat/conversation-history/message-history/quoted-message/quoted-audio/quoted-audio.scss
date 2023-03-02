@@ -1,0 +1,10 @@
+@import '../../../../../../../../assets/styles/variables';
+
+.#{$app-prefix}-quoted-audio {
+    display: flex;
+    align-items: center;
+
+    span {
+        padding: 0 0.3em;
+    }
+}

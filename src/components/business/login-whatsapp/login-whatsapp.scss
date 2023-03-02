@@ -1,0 +1,114 @@
+@import "../../../assets/styles/variables";
+
+.#{$app-prefix}-login-whatsapp {    
+    .wrapper-before {
+        background-color: #00A884;
+        min-height: $pix-220;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: $per-100;
+        z-index: -1;
+    }
+    
+    .main {
+        margin: 0;
+
+        .header {
+            align-items: center;
+            display: flex;
+            margin: 28px auto;
+            padding: 0 $pix-20;
+
+            .logo {
+                height: $pix-40;
+                width: $pix-40;
+            }
+
+            .title {
+                font-size: 0.9em;
+                color: $white;
+                padding: 0 0.5em;
+                text-transform: uppercase;
+            }
+        }
+
+        .window {
+            background-color: $white;
+            border-radius: $pix-5;            
+            box-shadow: 0 $pix-17 $pix-50 0 var(--panel-modal-box-shadow-color-1),
+            0 $pix-12 $pix-15 0 var(--panel-modal-box-shadow-color-2);
+            display: flex;
+            flex-direction: column;
+            padding: $pix-20;
+
+            .steps {
+                flex: 1;
+
+                .steps-title {
+                    color: #41525D;
+                    font-size: 1.8em;
+                    margin-bottom: $pix-30;
+                }
+
+                .steps-items {
+                    color: #3B4A54;
+                    font-size: 1.15em;
+                    padding: 0 0 0 $pix-25;
+
+                    li {
+                        line-height: $pix-28;
+                    }
+                }
+
+                .steps-items > li + li {
+                    margin-top: $pix-20;
+                }
+            }
+
+            .qr-image {
+                margin-top: $pix-20;
+
+                .qr {
+                    margin: 0 auto;
+                    height: $pix-250;
+                    width: $pix-250;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: #{$resolution-35em}) {
+    .#{$app-prefix}-login-whatsapp {
+        .main {
+            width: $pix-700;
+            margin: 0 auto;
+
+            .header {
+                padding: 0;
+            }
+
+            .window {
+                flex-direction: row;
+                padding: $pix-60;
+
+                .qr-image {
+                    margin-top: 0;
+
+                    .qr {                        
+                        margin-left: $pix-50;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: #{$resolution-85em}) {
+    .#{$app-prefix}-login-whatsapp {
+        .main {
+            width: $pix-1000;
+        }
+    }
+}

@@ -1,0 +1,56 @@
+@import "../../../../../../assets/styles/variables";
+
+.update-version {
+    align-items: center;
+    background-color: var(--panel-notification-update-background-color);
+    cursor: pointer;
+    display: flex;    
+    height: $per-100;
+    padding: 0 $pix-15;
+
+    .icon {
+        padding: $pix-15 0;
+        span {
+            background-color: var(--panel-notification-update-icon-background-color);
+            color: var(--panel-notification-icon-color);
+            border-radius: $per-50;
+            padding: $pix-14;           
+        }
+    }
+
+    .info {
+        margin: 0 $pix-15;
+        width: $per-100;        
+
+        .message-update {
+            display: flex;
+            flex-direction: column;
+
+            .title {
+                font-size: $pix-16;
+                color: #111b21;
+                line-height: $pix-21;
+            }
+
+            .comment {
+                display: flex;
+                align-items: center;
+                font-size: $pix-14;
+                color: #202c33;
+            }
+            
+            .comment:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    /*.options {
+        padding: 15px 5px;
+        transform: rotate(45deg);
+
+        a {
+            color: var(--panel-notification-icon-color);            
+        }
+    }*/
+}

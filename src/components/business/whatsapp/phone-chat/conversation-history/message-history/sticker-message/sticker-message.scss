@@ -1,0 +1,25 @@
+@import "../../../../../../../assets/styles/variables";
+
+.sticker-container {
+    display: flex;
+    justify-content: center;
+    
+    .sticker-message {
+        cursor: pointer;
+        max-width: 9em;
+    
+        .image {
+            width: $per-100;
+            margin-bottom: $pix-5;
+        }
+    }
+}
+
+
+@media (min-width: 35em) {
+    .sticker-container {
+        .sticker-message {
+            max-width: 13em;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+@import "../../../../../assets/styles/variables";
+@import "../../../../../assets/styles/whatsapp/animation-keyframes";
+
+.conversation-history {
+    background-image: url('../../../../../assets/images/bg-whatsapp-light.png');
+    background-repeat: repeat;
+    background-color: var(--panel-conversation-history-background-color);
+    overflow-y: scroll;
+    position: relative;
+    transition: all 0.5s ease-in;
+
+    &.dark {
+        background-image: url('../../../../../assets/images/bg-whatsapp-dark.png');
+    }
+
+    &.normal {
+        height: calc($per-100 - $panel-footer-phone-chat-height - $panel-header-phone-chat-height);
+    }
+
+    &.with-emoji {
+        height: calc($per-100 - $panel-footer-phone-chat-height - $panel-header-phone-chat-height - $panel-emoji-height);
+    }
+}
+
+@media (min-width: 35em) {
+    .conversation-history {
+        &.normal {
+            height: calc($vh-100 - $panel-footer-phone-chat-height - $panel-header-phone-chat-height);
+        }
+
+        &.with-emoji {
+            height: calc($vh-100 - $panel-footer-phone-chat-height - $panel-header-phone-chat-height - $panel-emoji-height);
+        }
+    }
+}

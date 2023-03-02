@@ -1,0 +1,420 @@
+@import "../../../../../../assets/styles/variables";
+@import "../../../../../../assets/styles/whatsapp/animation-keyframes";
+
+.emoji {
+    //animation: keyframe-scale-show 0.5s;
+    cursor: pointer;
+    height: $pix-32;
+    margin: $pix-6;
+    width: $pix-32;
+
+    .emoji-2-40_ed53db9,
+    .emoji-3-40_b11078f,
+    .emoji-5-40_cf53449,
+    .emoji-6-40_1de31e0,
+    .emoji-7-40_e239476,
+    .emoji-20-40_5566f14,
+    .emoji-22-40_1267b03,
+    .emoji-23-40_ad22422,
+    .emoji-25-40_aa1b7c4,
+    .emoji-26-40_3ea7a20,
+    .emoji-27-40_bc0a084,
+    .emoji-28-40_794fe85,
+    .emoji-33-40_f8bc50b,
+    .emoji-34-40_95b0aa0,
+    .emoji-35-40_b96bb59,
+    .emoji-36-40_bcf821b,
+    .emoji-37-40_e3230b6,
+    .emoji-38-40_27114fe,    
+    .emoji-39-40_deaed36,
+    .emoji-40-40_c505ee2,
+    .emoji-41-40_203058a,
+    .emoji-42-40_9dce20f,
+    .emoji-50-40_b6820c8,
+    .emoji-51-40_2ff4c5b,
+    .emoji-59-40_80c3581,
+    .emoji-62-40_eef8b24,
+    .emoji-63-40_f067ff0,
+    .emoji-64-40_8732587,
+    .emoji-65-40_8f39da8,
+    .emoji-66-40_d74d5c0,
+    .emoji-67-40_bc349d2,
+    .emoji-68-40_366d240,
+    .emoji-69-40_d35c5cd,
+    .emoji-70-40_8793169,
+    .emoji-72-40_3a735aa,
+    .emoji-73-40_bacaeba,
+    .emoji-78-40_df3a2b5,
+    .emoji-79-40_94aabbd,
+    .emoji-80-40_826b5e7,
+    .emoji-81-40_cfa013d,
+    .emoji-82-40_16f44b7,
+    .emoji-83-40_31cc406,
+    .emoji-84-40_9fe4994,
+    .emoji-85-40_129f5ca,
+    .emoji-86-40_2c85b8c,
+    .emoji-87-40_8c08f48,
+    .emoji-88-40_f4a6a53,
+    .emoji-92-40_392e1a7,
+    .emoji-95-40_88e0e67,
+    .emoji-96-40_d154eda,
+    .emoji-97-40_3bf0eb9,
+    .emoji-98-40_88dc6b2,
+    .emoji-99-40_e15ae1c,
+    .emoji-100-40_d48ed26,
+    .emoji-101-40_00b60ba,
+    .emoji-102-40_6861794,
+    .emoji-104-40_d252d87,
+    .emoji-106-40_7796ea9,
+    .emoji-107-40_e88d6f1,
+    .emoji-108-40_ef68e3c,
+    .emoji-109-40_acc22ba,
+    .emoji-110-40_fa5e529,
+    .emoji-111-40_dec013f,
+    .emoji-112-40_9ac620c,
+    .emoji-113-40_dcba913,
+    .emoji-114-40_b2087de,
+    .emoji-115-64_4705da5,
+    .emoji-122-40_538da3d,
+    .emoji-123-64_d0b83e6,
+    .emoji-124-40_188268a,
+    .emoji-125-40_e98933e,
+    .emoji-126-40_2e69ed7,
+    .emoji-127-40_1d7d7fd,
+    .emoji-128-40_c3216b8,
+    .emoji-129-40_22b551e,
+    .emoji-130-40_e101502,
+    .emoji-131-40_5a941ba,
+    .emoji-132-40_a0b6e70,
+    .emoji-133-40_388edcb,
+    .emoji-134-40_23b2a4b,
+    .emoji-135-40_58993c4 {
+        background-size: $pix-160 $pix-160;
+        height: $per-100;
+    }
+
+    .emoji-2-40_ed53db9 {
+        background-image: url('../../../../../../assets/emojis/emoji-2-40_ed53db9.webp');
+    }
+
+    .emoji-3-40_b11078f {
+        background-image: url('../../../../../../assets/emojis/emoji-3-40_b11078f.webp');
+    }
+
+    .emoji-5-40_cf53449 {
+        background-image: url('../../../../../../assets/emojis/emoji-5-40_cf53449.webp');
+    }
+
+    .emoji-6-40_1de31e0 {
+        background-image: url('../../../../../../assets/emojis/emoji-6-40_1de31e0.webp');
+    }
+
+    .emoji-7-40_e239476 {
+        background-image: url('../../../../../../assets/emojis/emoji-7-40_e239476.webp');
+    }
+
+    .emoji-20-40_5566f14 {
+        background-image: url('../../../../../../assets/emojis/emoji-20-40_5566f14.webp');
+    }
+
+    .emoji-22-40_1267b03 {
+        background-image: url('../../../../../../assets/emojis/emoji-22-40_1267b03.webp');
+    }
+
+    .emoji-23-40_ad22422 {
+        background-image: url('../../../../../../assets/emojis/emoji-23-40_ad22422.webp');
+    }
+
+    .emoji-25-40_aa1b7c4 {
+        background-image: url('../../../../../../assets/emojis/emoji-25-40_aa1b7c4.webp');
+    }
+
+    .emoji-26-40_3ea7a20 {
+        background-image: url('../../../../../../assets/emojis/emoji-26-40_3ea7a20.webp');
+    }
+
+    .emoji-27-40_bc0a084 {
+        background-image: url('../../../../../../assets/emojis/emoji-27-40_bc0a084.webp');
+    }
+
+    .emoji-28-40_794fe85 {
+        background-image: url('../../../../../../assets/emojis/emoji-28-40_794fe85.webp');
+    }
+
+    .emoji-33-40_f8bc50b {
+        background-image: url('../../../../../../assets/emojis/emoji-33-40_f8bc50b.webp');
+    }
+
+    .emoji-34-40_95b0aa0 {
+        background-image: url('../../../../../../assets/emojis/emoji-34-40_95b0aa0.webp');
+    }
+
+    .emoji-35-40_b96bb59 {
+        background-image: url('../../../../../../assets/emojis/emoji-35-40_b96bb59.webp');
+    }
+
+    .emoji-36-40_bcf821b {
+        background-image: url('../../../../../../assets/emojis/emoji-36-40_bcf821b.webp');
+    }
+
+    .emoji-37-40_e3230b6 {
+        background-image: url('../../../../../../assets/emojis/emoji-37-40_e3230b6.webp');
+    }
+
+    .emoji-38-40_27114fe {
+        background-image: url('../../../../../../assets/emojis/emoji-38-40_27114fe.webp');   
+    }
+
+    .emoji-39-40_deaed36 {
+        background-image: url('../../../../../../assets/emojis/emoji-39-40_deaed36.webp');
+    }
+
+    .emoji-40-40_c505ee2 {
+        background-image: url('../../../../../../assets/emojis/emoji-40-40_c505ee2.webp');
+    }
+
+    .emoji-41-40_203058a {
+        background-image: url('../../../../../../assets/emojis/emoji-41-40_203058a.webp');
+    }
+
+    .emoji-42-40_9dce20f {
+        background-image: url('../../../../../../assets/emojis/emoji-42-40_9dce20f.webp');
+    }
+
+    .emoji-50-40_b6820c8 {
+        background-image: url('../../../../../../assets/emojis/emoji-50-40_b6820c8.webp');
+    }
+
+    .emoji-51-40_2ff4c5b {
+        background-image: url('../../../../../../assets/emojis/emoji-51-40_2ff4c5b.webp');
+    }
+
+    .emoji-59-40_80c3581 {
+        background-image: url('../../../../../../assets/emojis/emoji-59-40_80c3581.webp');
+    }
+
+    .emoji-62-40_eef8b24 {
+        background-image: url('../../../../../../assets/emojis/emoji-62-40_eef8b24.webp');   
+    }
+
+    .emoji-63-40_f067ff0 {
+        background-image: url('../../../../../../assets/emojis/emoji-63-40_f067ff0.webp');
+    }
+
+    .emoji-64-40_8732587 {
+        background-image: url('../../../../../../assets/emojis/emoji-64-40_8732587.webp');
+    }
+
+    .emoji-65-40_8f39da8 {
+        background-image: url('../../../../../../assets/emojis/emoji-65-40_8f39da8.webp');
+    }
+
+    .emoji-66-40_d74d5c0 {
+        background-image: url('../../../../../../assets/emojis/emoji-66-40_d74d5c0.webp');
+    }
+
+    .emoji-67-40_bc349d2 {
+        background-image: url('../../../../../../assets/emojis/emoji-67-40_bc349d2.webp');
+    }
+
+    .emoji-68-40_366d240 {
+        background-image: url('../../../../../../assets/emojis/emoji-68-40_366d240.webp');
+    }
+
+    .emoji-69-40_d35c5cd {
+        background-image: url('../../../../../../assets/emojis/emoji-69-40_d35c5cd.webp');
+    }
+
+    .emoji-70-40_8793169 {
+        background-image: url('../../../../../../assets/emojis/emoji-70-40_8793169.webp');
+    }
+
+    .emoji-72-40_3a735aa {
+        background-image: url('../../../../../../assets/emojis/emoji-72-40_3a735aa.webp');
+    }
+
+    .emoji-73-40_bacaeba {        
+        background-image: url('../../../../../../assets/emojis/emoji-73-40_bacaeba.webp');
+    }
+
+    .emoji-78-40_df3a2b5 {
+        background-image: url('../../../../../../assets/emojis/emoji-78-40_df3a2b5.webp');
+    }
+
+    .emoji-79-40_94aabbd {
+        background-image: url('../../../../../../assets/emojis/emoji-79-40_94aabbd.webp');
+    }
+
+    .emoji-80-40_826b5e7 {
+        background-image: url('../../../../../../assets/emojis/emoji-80-40_826b5e7.webp');
+    }
+
+    .emoji-81-40_cfa013d {
+        background-image: url('../../../../../../assets/emojis/emoji-81-40_cfa013d.webp'); 
+    }
+
+    .emoji-82-40_16f44b7 {
+        background-image: url('../../../../../../assets/emojis/emoji-82-40_16f44b7.webp');
+    }
+
+    .emoji-83-40_31cc406 {
+        background-image: url('../../../../../../assets/emojis/emoji-83-40_31cc406.webp');
+    }
+    
+    .emoji-84-40_9fe4994 {
+        background-image: url('../../../../../../assets/emojis/emoji-84-40_9fe4994.webp');
+    }
+
+    .emoji-85-40_129f5ca {
+        background-image: url('../../../../../../assets/emojis/emoji-85-40_129f5ca.webp');
+    }
+
+    .emoji-86-40_2c85b8c {
+        background-image: url('../../../../../../assets/emojis/emoji-86-40_2c85b8c.webp');
+    }
+
+    .emoji-87-40_8c08f48 {
+        background-image: url('../../../../../../assets/emojis/emoji-87-40_8c08f48.webp');
+    }
+
+    .emoji-88-40_f4a6a53 {
+        background-image: url('../../../../../../assets/emojis/emoji-88-40_f4a6a53.webp');
+    }
+
+    .emoji-92-40_392e1a7 {
+        background-image: url('../../../../../../assets/emojis/emoji-92-40_392e1a7.webp');
+    }
+
+    .emoji-95-40_88e0e67 {
+        background-image: url('../../../../../../assets/emojis/emoji-95-40_88e0e67.webp');
+    }
+
+    .emoji-96-40_d154eda {
+        background-image: url('../../../../../../assets/emojis/emoji-96-40_d154eda.webp');
+    }
+
+    .emoji-97-40_3bf0eb9 {
+        background-image: url('../../../../../../assets/emojis/emoji-97-40_3bf0eb9.webp');
+    }
+
+    .emoji-98-40_88dc6b2 {
+        background-image: url('../../../../../../assets/emojis/emoji-98-40_88dc6b2.webp');
+    }
+
+    .emoji-99-40_e15ae1c {
+        background-image: url('../../../../../../assets/emojis/emoji-99-40_e15ae1c.webp');
+    }
+
+    .emoji-100-40_d48ed26 {
+        background-image: url('../../../../../../assets/emojis/emoji-100-40_d48ed26.webp');
+    }
+
+    .emoji-101-40_00b60ba {
+        background-image: url('../../../../../../assets/emojis/emoji-101-40_00b60ba.webp');
+    }
+
+    .emoji-102-40_6861794 {
+        background-image: url('../../../../../../assets/emojis/emoji-102-40_6861794.webp');
+    }
+
+    .emoji-104-40_d252d87 {
+        background-image: url('../../../../../../assets/emojis/emoji-104-40_d252d87.webp');
+    }
+
+    .emoji-106-40_7796ea9 {
+        background-image: url('../../../../../../assets/emojis/emoji-106-40_7796ea9.webp');
+    }
+
+    .emoji-107-40_e88d6f1 {
+        background-image: url('../../../../../../assets/emojis/emoji-107-40_e88d6f1.webp');
+    }
+
+    .emoji-108-40_ef68e3c {
+        background-image: url('../../../../../../assets/emojis/emoji-108-40_ef68e3c.webp');
+    }
+
+    .emoji-109-40_acc22ba {
+        background-image: url('../../../../../../assets/emojis/emoji-109-40_acc22ba.webp');
+    }
+
+    .emoji-110-40_fa5e529 {
+        background-image: url('../../../../../../assets/emojis/emoji-110-40_fa5e529.webp');
+    }
+
+    .emoji-111-40_dec013f {
+        background-image: url('../../../../../../assets/emojis/emoji-111-40_dec013f.webp');
+    }
+
+    .emoji-112-40_9ac620c {
+        background-image: url('../../../../../../assets/emojis/emoji-112-40_9ac620c.webp');
+    }
+
+    .emoji-113-40_dcba913 {
+        background-image: url('../../../../../../assets/emojis/emoji-113-40_dcba913.webp');
+    }
+
+    .emoji-114-40_b2087de {
+        background-image: url('../../../../../../assets/emojis/emoji-114-40_b2087de.webp');
+    }
+
+    .emoji-115-64_4705da5 {
+        background-image: url('../../../../../../assets/emojis/emoji-115-64_4705da5.webp');
+    }
+
+    .emoji-122-40_538da3d {
+        background-image: url('../../../../../../assets/emojis/emoji-122-40_538da3d.webp');
+    }
+
+    .emoji-123-64_d0b83e6 {
+        background-image: url('../../../../../../assets/emojis/emoji-123-64_d0b83e6.webp');
+    }
+
+    .emoji-124-40_188268a {
+        background-image: url('../../../../../../assets/emojis/emoji-124-40_188268a.webp');
+    }
+
+    .emoji-125-40_e98933e {
+        background-image: url('../../../../../../assets/emojis/emoji-125-40_e98933e.webp');
+    }
+
+    .emoji-126-40_2e69ed7 {
+        background-image: url('../../../../../../assets/emojis/emoji-126-40_2e69ed7.webp');
+    }
+
+    .emoji-127-40_1d7d7fd {
+        background-image: url('../../../../../../assets/emojis/emoji-127-40_1d7d7fd.webp');
+    }
+
+    .emoji-128-40_c3216b8 {
+        background-image: url('../../../../../../assets/emojis/emoji-128-40_c3216b8.webp');
+    }
+
+    .emoji-129-40_22b551e {
+        background-image: url('../../../../../../assets/emojis/emoji-129-40_22b551e.webp');
+    }
+
+    .emoji-130-40_e101502 {
+        background-image: url('../../../../../../assets/emojis/emoji-130-40_e101502.webp');
+    }
+
+    .emoji-131-40_5a941ba {
+        background-image: url('../../../../../../assets/emojis/emoji-131-40_5a941ba.webp');
+    }
+
+    .emoji-132-40_a0b6e70 {
+        background-image: url('../../../../../../assets/emojis/emoji-132-40_a0b6e70.webp');
+    }
+
+    .emoji-133-40_388edcb {
+        background-image: url('../../../../../../assets/emojis/emoji-133-40_388edcb.webp');
+    }
+
+    .emoji-134-40_23b2a4b {
+        background-image: url('../../../../../../assets/emojis/emoji-134-40_23b2a4b.webp');
+    }
+
+    .emoji-135-40_58993c4 {
+        background-image: url('../../../../../../assets/emojis/emoji-135-40_58993c4.webp');
+    }
+
+}

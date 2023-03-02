@@ -1,0 +1,64 @@
+@import "../../../../../assets/styles/variables";
+
+.search-conversation {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    gap: 0.3em;
+    background-color: var(--panel-search-conversations-background-color);
+    height: $panel-search-conversation-height;
+    justify-content: center;
+    padding: 0 0.5em;
+
+    .search-text {
+        background-color: var(--panel-search-conversations-search-text-background-color);
+        border-radius: $pix-5;
+        display: grid;
+        gap: 0.5em;
+        grid-template-columns: 1fr 9fr;
+        padding: 0.5em;
+        font-size: 0.9em;
+        outline: 0px none transparent;
+        --moz-user-select: text;
+        user-select: text;
+
+        .icon {
+            align-items: center;
+            color: var(--panel-search-conversations-search-text-icon-color);
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            transform: scale(1.1);
+        }
+
+        .input {
+            background-color: var(--panel-search-conversations-search-text-background-color);
+            color: var(--panel-search-conversations-search-text-font-color);
+            font-size: 0.9em;
+            border: none;
+            outline: none;
+
+            &:focus::-webkit-input-placeholder {
+                opacity: 0;
+            }
+        }
+    }
+
+    .search-option {
+        align-items: center;
+        border-radius: $per-50;
+        color: var(--panel-search-conversations-search-option-icon-color);
+        cursor: pointer;
+        display: flex;
+        height: $pix-30;
+        justify-content: center;
+        width: $pix-30;
+        transform: scale(0.8);
+        transition: all 0.2s ease-in;
+
+        &.selected {
+            background-color: var(--panel-search-conversations-search-option-selected-background-color);
+            color: var(--panel-search-conversations-search-option-selected-icon-color);
+        }
+    }
+}

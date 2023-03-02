@@ -1,0 +1,22 @@
+@import "../variables";
+
+.icon-footer {
+    align-items: center;
+    border-radius: $per-50;
+    width: 2.5em;
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+    transition: background-color 0.5s ease-out;
+
+    &.is-open {
+        background-color: var(--panel-footer-icon-select-background-color);
+    }
+
+    a {
+        align-items: center;
+        color: var(--panel-footer-icon-color);
+        display: flex;
+        transform: scale(1.3);
+    }
+}

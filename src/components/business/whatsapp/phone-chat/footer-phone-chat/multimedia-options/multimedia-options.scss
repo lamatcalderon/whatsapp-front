@@ -1,0 +1,129 @@
+@import "../../../../../../assets/styles/variables";
+@import "../../../../../../assets/styles/whatsapp/animation-keyframes";
+
+.multimedia-options {
+    position: relative;
+
+    .options {
+        bottom: $pix-5;
+        position: absolute;
+        width: $per-100;
+
+        &.is-open {
+            .menu-options {
+                display: flex;
+                flex-direction: column;
+                list-style: none;
+                padding: 0;
+
+                li {
+                    animation: keyframe-scale-show 0.5s;
+                    display: block;
+
+                    label {
+                        a {
+                            align-items: center;
+                            border-radius: $per-50;
+                            cursor: pointer;
+                            display: flex;
+                            margin-top: 1.5em;
+                            height: 2.5em;
+                            justify-content: center;
+                            transform: scale(1.4);
+                            width: 2.5em;
+                            color: $white;
+                            box-shadow: 0px 1px $pix-5 rgba(0, 0, 0, .17),
+                                0px 6px $pix-5 rgba(0, 0, 0, .29);
+                        }
+                    }
+
+                }
+            }
+
+            .menu-options>li:first-child {
+                animation-delay: -0.1s;
+            }
+
+            .menu-options>li:nth-child(2) {
+                animation-delay: -0.2s;
+            }
+
+            .menu-options>li:nth-child(3) {
+                animation-delay: -0.3s;
+            }
+
+            .menu-options>li:nth-child(4) {
+                animation-delay: -0.4s;
+            }
+        }
+
+        &.is-close {
+            .menu-options {
+                display: flex;
+                flex-direction: column;
+                list-style: none;
+                padding: 0;
+
+                li {
+                    animation: keyframe-scale-hide 0.5s;
+                    display: block;
+
+                    label {
+                        a {
+                            align-items: center;
+                            border-radius: $per-50;
+                            cursor: pointer;
+                            display: flex;
+                            margin-top: 1.5em;
+                            height: 2.5em;
+                            justify-content: center;
+                            transform: scale(1.4);
+                            width: 2.5em;
+                            color: $white;
+                            box-shadow: 0px 1px $pix-5 rgba(0, 0, 0, .17),
+                                0px 6px $pix-5 rgba(0, 0, 0, .29);
+                        }
+                    }
+
+                }
+            }
+
+            .menu-options>li:first-child {
+                animation-delay: 0.1s;
+            }
+
+            .menu-options>li:nth-child(2) {
+                animation-delay: 0.2s;
+            }
+
+            .menu-options>li:nth-child(3) {
+                animation-delay: 0.3s;
+            }
+
+            .menu-options>li:nth-child(4) {
+                animation-delay: 0.4s;
+            }
+        }
+    }
+}
+
+@mixin background-color($color) {
+    background-color: $color;
+}
+
+.media-sticker {
+    @include background-color(rgb(0, 112, 230));
+}
+
+.media-image {
+    @include background-color(rgb(236, 64, 122));
+}
+
+.media-document {
+    @include background-color(rgb(81, 87, 174));
+}
+
+.media-contact {
+    @include background-color(rgb(7, 149, 220));
+}
+

@@ -1,0 +1,44 @@
+@import "../variables";
+
+.panel-overlay-phone-data {
+    background-color: var(--panel-overlay-phone-data-background-color);
+    height: $per-100;
+    //overflow: auto;
+}
+
+.header-overlay-phone-data {
+    align-items: center;
+    background-color: var(--panel-overlay-contacts-header-background-color);
+    display: flex;
+    flex-wrap: nowrap;
+    height: $panel-overlay-phone-data-header-height;        
+    overflow: hidden;
+    padding: 0 $pix-30;
+
+    .title-overlay {
+        display: flex;
+        align-items: center;
+        padding: $pix-15;
+        width: $per-100;
+        min-width: $pix-200;
+    
+        a {
+            color: var(--panel-overlay-contacts-header-icon-color);
+        }
+    
+        span {
+            margin-left: $pix-20;
+            color: $white;
+            font-size: $pix-19;
+        }
+    }
+}
+
+@media (min-width: 35em) {
+    .panel-overlay-phone-data {
+        height: $vh-100;
+        .header-overlay-phone-data {
+            height: $panel-overlay-phone-data-header-height;  
+        }
+    }
+}

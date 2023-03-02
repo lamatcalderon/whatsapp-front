@@ -1,0 +1,179 @@
+$app-prefix: app-whatsapp;
+
+//variables-options
+$panel-options-z-index: 2;
+
+//variables-overlay-general
+$panel-overlay-open-close-time-animation: 0.5s;
+$panel-overlay-z-index: 2;
+
+//variables-phone-data
+$panel-phone-data-width: 28vw;
+
+$panel-header-height: 60px;
+$panel-header-phone-chat-height: $panel-header-height;
+
+$panel-notification-phone-data-height: 90px;
+
+$panel-contacts-height: 72px;
+
+$panel-search-conversation-height: 50px;
+
+$panel-overlay-phone-data-header-height: 90px;
+$panel-overlay-phone-data-z-index: 1;
+
+$panel-profile-summary-overlay-phone-data-height: 120px;
+
+//variables-phone-data-chat
+$panel-footer-phone-chat-height: 60px;
+$panel-overlay-phone-chat-z-index: $panel-overlay-phone-data-z-index;
+
+$panel-emoji-height: 250px;
+$panel-categories-emoji-height: 40px;
+
+$panel-preview-media-z-indez: $panel-overlay-phone-data-z-index;
+
+//variables-modal
+$panel-modal-z-index: 3;
+$panel-modal-open-close-time-animation: $panel-overlay-open-close-time-animation;
+
+//variables-overspread
+$panel-header-overspread-preview-height: 4em;
+$panel-overspread-z-index: 3;
+
+
+$white: #ffffff;
+
+$pix-1: 1px;
+$pix-2: 2px;
+$pix-3: 3px;
+$pix-4: 4px;
+$pix-5: 5px;
+$pix-6: 6px;
+$pix-7: 7px;
+$pix-8: 8px;
+$pix-9: 9px;
+$pix-10: 10px;
+$pix-12: 12px;
+$pix-14: 14px;
+$pix-15: 15px;
+$pix-16: 16px;
+$pix-17: 17px;
+$pix-18: 18px;
+$pix-19: 19px;
+$pix-20: 20px;
+$pix-21: 21px;
+$pix-25: 25px;
+$pix-28: 28px;
+$pix-30: 30px;
+$pix-32: 32px;
+$pix-35: 35px;
+$pix-40: 40px;
+$pix-45: 45px;
+$pix-50: 50px;
+$pix-54: 54px;
+$pix-55: 55px;
+$pix-60: 60px;
+$pix-70: 70px;
+$pix-80: 80px;
+$pix-90: 90px;
+$pix-100: 100px;
+$pix-120: 120px;
+$pix-130: 130px;
+$pix-150: 150px;
+$pix-160: 160px;
+$pix-200: 200px;
+$pix-220: 220px;
+$pix-250: 250px;
+$pix-300: 300px;
+$pix-400: 400px;
+$pix-500: 500px;
+$pix-550: 550px;
+$pix-600: 600px;
+$pix-700: 700px;
+$pix-1000: 1000px;
+
+$per-10: 10%;
+$per-40: 40%;
+$per-50: 50%;
+$per-60: 60%;
+$per-70: 70%;
+$per-80: 80%;
+$per-85: 85%;
+$per-90: 90%;
+$per-95: 95%;
+$per-100: 100%;
+
+$vh-10: 10vh;
+$vh-100: 100vh;
+
+$vw-25: 25vw;
+$vw-75: 75vw;
+$vw-100: 100vw;
+
+$resolution-35em: 35em;
+$resolution-85em: 85em;
+
+@for $i from 1 through 70 {
+    $margin: $i * 1px;
+
+    .m-#{$i} {
+        margin: $margin;
+    }
+
+    .ml-#{$i} {
+        margin-left: $margin;
+    }
+
+    .mr-#{$i} {
+        margin-right: $margin;
+    }
+
+    .mt-#{$i} {
+        margin-top: $margin;
+    }
+
+    .mb-#{$i} {
+        margin-bottom: $margin;
+    }
+
+    .mx-#{$i} {
+        margin-left: $margin;
+        margin-right: $margin;
+    }
+
+    .my-#{$i} {
+        margin-top: $margin;
+        margin-bottom: $margin;
+    }
+
+    .p-#{$i} {
+        padding: $margin
+    }
+
+    .pl-#{$i} {
+        padding-left: $margin;
+    }
+
+    .pr-#{$i} {
+        padding-right: $margin;
+    }
+
+    .pt-#{$i} {
+        padding-top: $margin;
+    }
+
+    .pb-#{$i} {
+        padding-bottom: $margin;
+    }
+
+    .px-#{$i} {
+        padding-left: $margin;
+        padding-right: $margin;
+    }
+
+    .py-#{$i} {
+        padding-top: $margin;
+        padding-bottom: $margin;
+    }
+}

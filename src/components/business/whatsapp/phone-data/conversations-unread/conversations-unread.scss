@@ -1,0 +1,56 @@
+@import "../../../../../assets/styles/variables";
+
+.conversations-unread {
+    background-color: var(--panel-conversations-unread-background-color);
+    border-top: $pix-1 solid var(--panel-conversations-unread-border-color);
+    overflow-y: auto;
+
+    &.empty {
+        display: flex;
+        flex-direction: column;
+
+        .title {
+            flex-grow: 1;
+        }
+    }
+
+    .title {
+        align-items: center;
+        display: flex;
+        height: $pix-70;
+        justify-content: center;
+        padding: 2em;
+        text-align: center;
+
+        .text {
+            color: var(--panel-conversations-unread-title-text-font-color);
+            text-transform: uppercase;
+        }
+    }
+
+    .bottom-message {
+        padding: 0.5em 1em;
+        .text {
+            border-top: $pix-1 solid var(--panel-conversations-unread-border-color);
+            text-align: center;
+
+            span {
+                color: var(--panel-conversations-unread-bottom-message-text-font-color);
+                font-size: 0.7em;
+                margin: 0.5em;
+            }
+        }
+    }
+}
+
+@media (min-width: 35em) {
+    .conversations-unread {
+        &.normal {
+            height: calc($vh-100 - $panel-header-phone-chat-height - $panel-search-conversation-height);
+        }
+    
+        &.with-notification {
+            height: calc($vh-100 - $panel-header-phone-chat-height - $panel-notification-phone-data-height - $panel-search-conversation-height);
+        }
+    }
+}

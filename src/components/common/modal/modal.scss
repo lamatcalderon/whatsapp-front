@@ -1,0 +1,67 @@
+@import "../../../assets/styles/variables";
+@import "../../../assets/styles/whatsapp/animation-keyframes";
+
+.modal {
+    background-color: var(--panel-modal-background-color);
+    border-radius: $pix-5;
+    width: $per-90;
+    z-index: $panel-modal-z-index;
+    position: fixed;
+    box-shadow: 0 $pix-17 $pix-50 0 var(--panel-modal-box-shadow-color-1),
+                0 $pix-12 $pix-15 0 var(--panel-modal-box-shadow-color-2);
+
+    &.is-open {
+        animation: keyframe-scale-show $panel-modal-open-close-time-animation;
+    }
+
+    &.is-close {
+        animation: keyframe-scale-hide $panel-modal-open-close-time-animation;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: $pix-20 $pix-15;
+
+        .title {
+            font-size: $pix-20;
+            color: var(--panel-modal-header-font-color);
+        }
+
+        .options {
+            transform: rotate(45deg);
+            a {
+                color: var(--panel-modal-header-icon-color);
+            }
+        }
+    }
+
+    .content {
+        padding: $pix-15;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        padding: $pix-15;
+    }
+}
+
+@media (min-width: 35em) {
+
+    .modal {
+
+        &.is-open,
+        &.is-close {
+            min-width: $pix-400;
+            max-width: $pix-500;
+        }
+
+        .footer {
+            flex-direction: row;
+            justify-content: flex-end;
+            padding: $pix-15;
+        }
+    }
+
+}

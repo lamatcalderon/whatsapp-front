@@ -1,0 +1,48 @@
+@import "../../../../../../../assets/styles/variables";
+
+.profile-summary {
+    display: flex;
+    align-items: center;
+    height: $panel-profile-summary-overlay-phone-data-height;
+    padding: 0 $pix-15;
+
+    .avatar {
+        border-radius: $per-50;
+        height: $pix-80;
+        min-width: $pix-80;
+        max-width: $pix-80;
+
+        img {
+            border-radius: $per-50;
+            width: $per-100;
+        }
+    }
+
+    .info {
+        align-items: center;
+        display: flex;        
+        margin-left: $pix-15;
+        position: relative;
+        width: $per-100;
+
+        .data-info {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            width: $per-100;
+            
+            .title {
+                color: var(--panel-overlay-config-summary-profile-data-info-title-font-color);
+                font-size: $pix-19;
+            }
+    
+            .message {
+                color: var(--panel-overlay-config-summary-profile-data-info-message-font-color);
+                font-size: $pix-15;
+                overflow: hidden;                    
+                text-overflow: ellipsis;
+                white-space: nowrap;            
+            }
+        }
+    }
+}

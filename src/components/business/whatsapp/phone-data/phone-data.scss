@@ -1,0 +1,14 @@
+@import '../../../../assets/styles/variables';
+
+.phone-data {
+    position: relative;
+    height: $per-100;
+    width: $vw-100;
+}
+
+@media (min-width: 35em) {
+    .phone-data {
+        height: $vh-100;
+        width: $panel-phone-data-width;
+    }
+}

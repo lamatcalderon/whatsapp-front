@@ -1,0 +1,13 @@
+@import "../../../../../../../assets/styles/variables";
+
+.image-message {
+    .image {
+        cursor: pointer;
+        max-width: 18em;
+        
+        img {
+            width: $per-100;
+            margin-bottom: $pix-5;
+        }
+    }
+}

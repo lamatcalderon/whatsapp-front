@@ -1,0 +1,44 @@
+@import "../../../../../assets/styles/variables";
+@import "../../../../../assets/styles/whatsapp/animation-keyframes";
+
+.emojis {
+    height: 0;
+    transition: height 0.5s ease-in;
+    background-color: var(--panel-emojis-background-color);
+    overflow: hidden;
+
+    &.is-open {
+        height: $panel-emoji-height;
+    }
+
+    .emojis-panel {
+        height: calc($panel-emoji-height - $panel-categories-emoji-height);
+        overflow-y: scroll;
+
+        .title-category {
+            color: var(--panel-categories-emojis-title-category-font-color);
+            font-size: 0.9em;
+            margin: 0;
+            padding: 1em 0;
+            display: block;
+        }
+
+        .emojis-container {
+            align-items: center;
+            justify-items: center;
+            font-size: $pix-30;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+
+}
+
+@media (min-width: 35em) {
+    .emojis {
+        .emojis-panel {
+            padding: 0 1em;
+        }
+    }
+}

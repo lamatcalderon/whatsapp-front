@@ -1,0 +1,13 @@
+@import "../../../assets/styles/variables";
+
+.#{$app-prefix}-icon-message {
+    display: inline-block;
+    height: $pix-10;
+    width: $pix-16;
+    filter: drop-shadow(0 0 0 white);
+
+    img {
+        height: $per-100;
+        width: $per-100;
+    }
+}

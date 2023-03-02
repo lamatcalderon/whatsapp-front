@@ -1,0 +1,25 @@
+@import "../../../../../assets/styles/variables";;
+
+.overlay-phone-chat {
+    background-color: var(--panel-overlay-phone-chat-background-color);
+    overflow: hidden;
+    position: absolute;
+    transition: width 0.3s ease-in;
+    z-index: $panel-overlay-phone-chat-z-index;
+    height: 0;
+    width: 0;
+
+    &.is-open {
+        width: $per-100;
+        height: $per-100;
+    }
+}
+
+@media (min-width: 35em) {
+    .overlay-phone-data {        
+        &.is-open {
+            width: calc($vw-100 - $panel-phone-data-width);
+            height: $vh-100;
+        }
+    }
+}

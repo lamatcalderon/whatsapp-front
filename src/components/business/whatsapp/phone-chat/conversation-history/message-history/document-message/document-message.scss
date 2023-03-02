@@ -1,0 +1,60 @@
+@import "../../../../../../../assets/styles/variables";
+
+.#{$app-prefix}-document-message {
+    .preview {
+        background-color: var(--panel-document-message-from-me-background-color);
+        border-radius: $pix-6;
+        cursor: pointer;
+        padding: 0.5em 1em;
+        max-height: $pix-90;
+        margin-bottom: 0.25em;
+
+        &.no-from-me {
+            background-color: var(--panel-document-message-no-from-me-background-color);
+        }
+
+        .content {
+            display: grid;
+            gap: 0.3em;
+            grid-template-columns: $pix-30 1fr $pix-30;
+            .icon {
+                color: rgba(var(--panel-document-message-icon-color),.5);
+                height: $per-100;
+                width: $pix-30;
+            }
+            .description {
+                .name {                    
+                    color: var(--panel-document-message-description-name-font-color);
+                    font-size: 0.95em;
+                    line-height: 1;                    
+                    word-break: break-all;
+                }
+
+                .features {
+                    color: var(--panel-document-message-description-features-font-color);
+                    font-size: 0.75em;
+                    padding: 0.1em 0;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+
+    .text-message {
+        color: var(--panel-document-message-text-message-font-color);
+    }
+}
+
+@media (min-width: 35em) {
+    .#{$app-prefix}-document-message {
+        .preview {
+            .content {
+                .description {
+                    .name {
+                        min-width: $pix-150;
+                    }
+                }
+            }
+        }
+    }
+}

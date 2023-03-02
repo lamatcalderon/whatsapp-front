@@ -1,0 +1,10 @@
+@import "../../../../../../../assets//styles/variables";
+
+.#{$app-prefix}-conversation-message {
+    .message-history-emoji {
+        margin: 0 1em;
+        .message-history-emoji-image {
+            width: $pix-50;
+        }
+    }
+}

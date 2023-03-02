@@ -1,0 +1,6 @@
+@import "../../../../../../assets/styles/variables";
+
+.battery-low {
+    height: $per-100;
+    background-color: red;
+}

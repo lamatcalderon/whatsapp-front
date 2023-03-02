@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Smileys & Emotion",
+        "icon": "fas fa-smile",
+        "description": "Emoticones y personas"
+    },
+    {
+        "id": 2,
+        "name": "People & Body",
+        "icon": "fas fa-hand-point-up",
+        "description": "Señales y gestos"
+    },
+    {
+        "id": 3,
+        "name": "Animals & Nature",
+        "icon": "fas fa-paw",
+        "description": "Animales y naturaleza"
+    },
+    {
+        "id": 4,
+        "name": "Food & Drink",
+        "icon": "fas fa-coffee",
+        "description": "Alimentos y bebidas"
+    },
+    {
+        "id": 5,
+        "name": "Activities",
+        "icon": "fas fa-futbol",
+        "description": "Actividades"
+    },
+    {
+        "id": 6,
+        "name": "Objects",
+        "icon": "fas fa-car",
+        "description": "Viajes y lugares"
+    },
+    {
+        "id": 7,
+        "name": "Travel & Places",
+        "icon": "fas fa-lightbulb",
+        "description": "Objetos"
+    },
+    {
+        "id": 8,
+        "name": "Symbols",
+        "icon": "fas fa-hashtag",
+        "description": "Simbolos"
+    },
+    {
+        "id": 9,
+        "name": "Flags",
+        "icon": "fas fa-flag",
+        "description": "Banderas"
+    }
+]

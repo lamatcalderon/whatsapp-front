@@ -1,0 +1,56 @@
+@import "../../../../../../assets/styles/variables";
+
+.message-history {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2em;
+
+    .container-message {        
+        border-radius: $pix-5;
+        box-shadow: 0 $pix-1 $pix-2 rgba(0,0,0, .2);
+        font-size: 0.9em;
+        max-width: 15em;
+        padding: $pix-6 $pix-5;
+        position: relative;
+
+        &.no-from-me {
+            background-color: var(--panel-message-history-no-from-me-background-color);
+        }
+    
+        &.from-me {
+            background-color: var(--panel-message-history-background-color);
+        }
+
+        .date {
+            color: var(--panel-message-history-container-message-date-font-color);
+            font-size: 0.7em;
+            position: absolute;
+            right: $pix-7;
+            bottom: $pix-5;
+
+            /*&.from-me, &.no-from-me {
+                border-radius: $pix-5;
+                box-shadow: 0 $pix-1 $pix-2 rgba(0,0,0, .2);
+                padding: 0.5em;
+            }
+
+            &.from-me {
+                background-color: var(--panel-message-history-background-color);
+            }
+
+            &.no-from-me {
+                background-color: var(--panel-message-history-no-from-me-background-color);
+            }*/
+        }
+    }
+}
+
+@media (min-width: 35em) {
+    .message-history {
+        padding: 0.5em 3em;
+
+        .container-message {
+            max-width: 29em;
+        }
+    }
+}

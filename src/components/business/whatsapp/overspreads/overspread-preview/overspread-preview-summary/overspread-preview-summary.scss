@@ -1,0 +1,38 @@
+@import "../../../../../../assets/styles/variables";
+
+.overspread-preview-summary {
+    align-items: center;
+    display: flex;
+    height: $panel-header-overspread-preview-height;
+    padding: 0 1em;
+
+    .content {
+        align-items: center;
+        display: flex;            
+        justify-content: space-between;
+        padding: 0;
+        width: $per-100;
+
+        .options {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 0.5em;
+            color: var(--panel-overspread-preview-summary-content-options-icon-color);
+            .option {
+                cursor: pointer;
+                transform: scale(1.2);
+            }
+        }
+    }
+}
+
+@media (min-width: 35em) {
+    .overspread-preview-summary {
+        .content{
+            padding: 0.5em;
+            .options {
+                column-gap: 2.5em;
+            }
+        }
+    }
+}

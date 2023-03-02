@@ -1,0 +1,27 @@
+@import "../../../../../../assets/styles/variables";
+
+.overspread-preview-visor {
+    display: flex;
+    flex-direction: column;
+    height: calc($per-100 - $panel-header-overspread-preview-height);
+
+    .media-visor {
+        align-items: center;
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+
+        .content {
+            height: 20em;
+
+            .image {
+                height: $per-100;
+                width: $per-100;
+            }
+        }
+    }
+
+    .media-carousel {
+        height: 4em;
+    }
+}

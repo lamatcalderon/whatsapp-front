@@ -1,0 +1,55 @@
+@import "../../../../../assets/styles/variables";
+
+.header-phone-data {
+    align-items: center;
+    background-color: var(--panel-header-background-color);
+    display: flex;
+    flex-direction: row;
+    height: $panel-header-phone-chat-height;
+    padding: 0 $pix-15;
+    justify-content: space-between;
+
+    .avatar {
+        border-radius: $per-50;    
+        cursor: pointer;
+        height: $pix-40;
+        width: $pix-40;  
+        
+        .avatar-image {
+            border-radius: $per-50;
+            width: $per-100;
+        }
+    }
+
+    .options {
+        .nav-options {
+            display: flex;
+            list-style: none;
+            padding: 0;
+
+            .content {
+                align-items: center;
+                border-radius: $per-50;
+                cursor: pointer;
+                display: flex;
+                height: $pix-40;
+                justify-content: center;
+                margin: 0 $pix-2;
+                width: $pix-40;
+                transition: background-color 0.5s ease-out;
+
+                &.is-open {
+                    background-color: var(--panel-header-icon-select-background-color);
+                }
+            }
+        }
+
+        .nav-options > li > div > a {
+            color: var(--panel-header-icon-color);
+        }
+
+        /*.nav-options > li:last-child > a {
+            padding-right: 0;
+        }*/
+    }
+}

@@ -1,0 +1,133 @@
+@import "../../../assets/styles/variables";
+
+.contact {
+    cursor: pointer;
+    display: flex;
+    height: $panel-contacts-height;
+    padding-left: $pix-15;
+
+    .avatar {
+        align-items: center;
+        display: flex;
+        .avatar-image {
+            border: 1px solid var(--panel-contact-avatar-border-color);
+            border-radius: $per-50;
+            height: $pix-50;
+            width: $pix-50;
+        }
+    }
+
+    .info {
+        position: relative;
+        align-items: center;
+        border-top: 1px solid var(--panel-contact-info-border-color);
+        display: flex;
+        margin-right: $pix-15;
+        margin-left: $pix-15;
+        width: $per-100;
+
+        .data-info {
+            position: absolute;
+            flex-direction: column;
+            width: $per-100;
+
+            .name {
+                color: var(--panel-contact-info-data-name-font-color);
+                display: flex;
+                justify-content: space-between;
+                font-size: 1em;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+
+                .date-last-message {
+                    color: var(--panel-contact-info-data-last-message-font-color);
+                    font-size: $pix-12;
+
+                    &.unread {
+                        color: var(--panel-contact-unread-info-data-date-last-message-font-color);
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            .last-message {
+                color: var(--panel-contact-info-data-last-message-font-color);
+                font-size: $pix-14;
+                overflow: hidden;                    
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            .count {
+                align-items: center;
+                background-color: var(--panel-contact-unread-info-data-count-background-color);
+                border-radius: $per-50;
+                color: $white;
+                display: flex;
+                font-weight: bold;
+                height: $pix-20;
+                justify-content: center;
+                min-width: $pix-20;
+                padding: 0 0.3em;
+                margin: 0 0.1em;
+                font-size: $pix-14;
+
+                span {
+                    font-size: 0.9em;
+                }
+            }
+
+            .icon {
+                display: none;
+            }
+        }
+    }
+
+    &.selected {
+        background-color: var(--panel-contact-hover-background-color);
+
+        .info {
+            .data-info {
+                .name {
+                    color: var(--panel-contact-hover-info-data-name-font-color);
+                    .date-last-message {
+                        color: var(--panel-contact-hover-info-data-last-message-font-color);
+                    }
+                }
+                .last-message {
+                    color: var(--panel-contact-hover-info-data-last-message-font-color);
+                }                
+            }
+        }
+    }
+}
+
+.contact:first-child > .info {
+    border-top: none;
+}
+
+.contact:hover {
+    background-color: var(--panel-contact-hover-background-color);
+    .info {
+        .data-info {
+            .name {
+                color: var(--panel-contact-hover-info-data-name-font-color);
+                .date-last-message {
+                    color: var(--panel-contact-hover-info-data-last-message-font-color);
+                }
+            }
+
+            .last-message {
+                color: var(--panel-contact-hover-info-data-last-message-font-color);
+            }
+
+            .icon {
+                align-items: center;
+                color: var(--panel-contact-hover-info-data-last-message-icon-color);
+                display: flex;                
+                justify-content: center;           
+            }
+        }
+    }
+}

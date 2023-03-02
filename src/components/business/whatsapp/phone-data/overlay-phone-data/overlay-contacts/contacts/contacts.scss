@@ -1,0 +1,14 @@
+@import "../../../../../../../assets/styles/variables";
+
+.contacts {
+    overflow-y: auto;
+    height: calc($per-100 - $panel-overlay-phone-data-header-height);
+}
+
+@media (min-width: 35em) {
+    .contacts {
+        &.normal {
+            height: calc($vh-100 - $panel-overlay-phone-data-header-height);
+        }
+    }
+}

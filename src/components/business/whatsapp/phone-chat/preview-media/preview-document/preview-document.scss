@@ -1,0 +1,100 @@
+@import "../../../../../../assets/styles/variables";
+
+.preview-document {
+    background-color: var(--panel-preview-media-document-container-background-color);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: $per-100;
+    justify-content: center;
+    width: $per-100;
+
+    .preview {        
+        align-items: center;
+        color: var(--panel-preview-media-document-container-preview-font-color);
+        border-radius: $pix-10;
+        display: flex;
+        flex-direction: column;
+        height: $per-70;
+        justify-content: center;
+        width: $per-80;
+
+        .icon {
+            background-color: $white;
+            border: 1px solid rgba(0,0,0,.12);
+            border-radius: $pix-5;
+
+            height: 80px;
+            width: 50px;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 0.8em;
+            font-weight: bold;
+            padding: 0.5em;       
+            margin: 0;
+        }
+
+        .subtitle {
+            font-size: 0.6em;
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    .message {
+        border-radius: $pix-10;
+        background-color: var(--panel-preview-media-document-container-message-background-color);
+        cursor: text;
+        padding: $pix-4 $pix-16;
+        margin-top: $pix-10;
+        width: $per-90;
+
+        .text {        
+            color: var(--panel-preview-media-document-container-message-text-font-color);
+            margin: $pix-5;
+            max-height: $pix-90;
+            overflow-y: scroll;
+            outline: 0px none transparent;
+            word-break: break-all;
+            --moz-user-select: text;
+            user-select: text;
+        }
+
+        .text:empty::before,
+        .text:empty:focus::before {
+            content: attr(placeholder);
+            opacity: 0.6;
+            font-size: 0.9em;
+        }
+    }    
+}
+
+@media (min-width: 35em) {
+    .preview-document {
+        padding: 0 $pix-100;
+
+        .preview {
+            height: $pix-300;
+            width: $pix-550;
+
+            .icon {
+                background-color: $white;
+                border: 1px solid rgba(0,0,0,.12);
+                border-radius: $pix-5;
+                height: $pix-120;
+                width: $pix-100;
+            }
+
+            .title {
+                font-size: 1.5em;
+                padding: 1.5em 1em 0.5em 1em;
+            }
+
+            .subtitle {
+                font-size: 0.9em;
+            }
+        }
+    }
+}

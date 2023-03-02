@@ -1,0 +1,96 @@
+@import "../../../../../../../assets/styles/variables";
+
+.#{$app-prefix}-audio-message {
+    align-items: center;
+    column-gap: 1em;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+
+    .phones {
+        align-items: center;
+        background-color: var(--panel-audio-message-phones-background-color);
+        border-radius: $per-50;
+        display: flex;
+        color: $white;
+        height: $pix-55;
+        justify-content: center;
+        position: relative;
+        width: $pix-55;
+
+        span {
+            transform: scale(2);
+        }
+
+        .profile-photo {
+            height: $pix-55; 
+            border-radius: $per-50;
+        }
+
+        .profile-icon {
+            color: var(--panel-audio-message-phones-profile-icon-font-color);
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            transform: scale(1.2);
+        }
+    }
+
+    .audio-player {
+        align-items: center;
+        display: grid;
+        gap: 0.5em;
+        grid-template-columns: auto auto;
+        justify-content: center;
+
+        .option {
+            align-items: center;
+            justify-content: center;
+            color: var(--panel-audio-message-audio-player-option-icon-color);
+            display: flex;
+            height: $pix-20;
+            width: $pix-20;
+
+            span {
+                cursor: pointer;
+                transform: scale(1.5);
+            }
+        }
+
+        .container-seek {
+            align-items: center;
+            display: flex; 
+            justify-content: space-between; 
+            position: relative;
+
+            .seek-slider {
+                cursor: pointer;
+                height: $pix-2;
+                margin-top: -1px;
+                width: $per-100;
+            }
+
+            .seek-duration {
+                bottom: -$pix-20;
+                color: var(--panel-audio-message-audio-player-seek-duration-font-color);
+                font-size: 0.7em;
+                left: $pix-2;
+                position: absolute;
+            }
+        }
+    }
+}
+
+@media (min-width: 35em) {
+    .audio-message {
+        padding: 0.5;
+
+        .audio-player {
+            .container-seek {
+                .seek-slider {
+                    width: 12em;
+                }
+            }
+        }
+    }
+}

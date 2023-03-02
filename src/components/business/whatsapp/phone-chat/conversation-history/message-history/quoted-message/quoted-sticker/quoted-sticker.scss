@@ -1,0 +1,12 @@
+@import '../../../../../../../../assets/styles/variables';
+
+.#{$app-prefix}-quoted-sticker {
+    .content {
+        height: $pix-45;
+        width: $pix-45;
+        .image {
+            height: $per-100;
+            width: $per-100;            
+        }
+    }
+}

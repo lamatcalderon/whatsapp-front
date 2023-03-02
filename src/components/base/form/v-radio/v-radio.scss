@@ -1,0 +1,61 @@
+@import "../../../../assets/styles/variables";
+
+.v-radio {
+  color: var(--v-radio-default-font-color);
+  cursor: pointer;
+  font-size: 1em;
+  line-height: 1.1;
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.6em;
+}
+
+input[type="radio"] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  appearance: none;
+  /* For iOS < 15 to remove gradient background */
+  background-color: #fff;
+  cursor: pointer;
+  /* Not removed via appearance */
+  margin: 0;
+  font: inherit;
+  color: var(--v-radio-default-font-color);
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid var(--theme-base-color);
+  border-radius: $per-50;
+  transform: translateY(-0.075em);
+
+  display: grid;
+  place-content: center;
+}
+
+input[type="radio"]::before {
+  content: "";
+  width: 0.6em;
+  height: 0.6em;
+  border-radius: $per-50;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 0.5em 0.5em var(--theme-base-color);
+  background-color: CanvasText;
+}
+
+input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+
+input[type="radio"]:focus {
+  box-shadow: 0.045em 0.045em $pix-5 rgba(0,0,0,.3),
+  -0.045em 0.045em $pix-5 rgba(0,0,0,.3);
+}
+
+.v-radio + .v-radio {
+  margin-top: 0.3em;
+}
+
+.v-radio:focus-within {
+  color: var(--theme-base-color);
+  font-weight: bold;
+}

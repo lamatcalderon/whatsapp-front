@@ -1,0 +1,11 @@
+@import "../../../../../assets/styles/styles";
+
+.notification {
+    height: 0;
+    transition: height 0.5s ease-in;
+    overflow: hidden;
+
+    &.is-open {
+        height: $panel-notification-phone-data-height;
+    }
+}

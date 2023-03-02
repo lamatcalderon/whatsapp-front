@@ -1,0 +1,23 @@
+@import "../../../../../../assets/styles/variables";
+
+.#{$app-prefix}-button-bottom {
+    align-items: center;
+    background-color: var(--panel-button-bottom-background-color);
+    border-radius: $per-50;
+    bottom: calc($panel-footer-phone-chat-height + $pix-5);
+    box-shadow: 0 $pix-1 $pix-1 0 var(--panel-modal-box-shadow-color-1),
+    0 $pix-2 $pix-5 0 var(--panel-modal-box-shadow-color-2);
+    color: var(--panel-button-bottom-font-color);
+    cursor: pointer;
+    display: flex;
+    height: $pix-50; 
+    justify-content: center;
+    position: var(--panel-button-bottom-position);
+    right: $pix-15;
+    transition: transform 0.3s ease-in;
+    width: $pix-50;
+
+    &.hide {
+        transform: scale(0);
+    }
+}

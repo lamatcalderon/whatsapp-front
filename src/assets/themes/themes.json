@@ -1,0 +1,368 @@
+{
+    "normal": {
+        "label": "Claro",
+        "baseColor": "#54656f",
+
+        "panelPhoneChatBackgroundColor": "#ffffff",
+        "panelPhoneChatBorderColor": "#d1d7db",
+
+        "panelOverlayBackgroundColor": "hsla(0,0%,100%,0.85)",
+        
+        "panelOverlayPhoneDataBackgroundColor": "#ffffff",
+
+        "panelOverlayContactsHeaderBackgroundColor": "#008069",
+        "panelOverlayContactsHeaderIconColor": "#ffffff",
+
+        "panelOverlayConfigHeaderBackgroundColor": "#008069",
+        "panelOverlayConfigHeaderIconColor": "#ffffff",
+        "panelOverlayConfigSummaryProfileDataInfoTitleFontColor": "#111B21",
+        "panelOverlayConfigSummaryProfileDataInfoMessageFontColor": "#666781",
+        "panelOverlayConfigOptionsIconColor": "#8696a0",
+        "panelOverlayConfigOptionsOptionBorderColor": "#f5f6f6",
+        "panelOverlayConfigOptionsOptionFontColor": "#111b21",
+        "panelOverlayConfigOptionsHoverOptionBackgroundColor": "#f5f6f6",
+
+        "panelModalBackgroundColor": "#ffffff",
+        "panelModalHeaderFontColor": "#3b4a54",
+        "panelModalHeaderIconColor": "#008069",
+
+        "panelOverspreadPreviewSummaryContentOptionsIconColor": "#54656f",
+
+        "panelHeaderBackGroundColor": "#f0f2f5",
+        "panelHeaderIconColor": "#54656f",
+        "panelHeaderIconSelectBackgroundColor": "#d1d7db",
+        "panelHeaderInfoContactAliasFontColor": "#111B21",
+        "panelHeaderInfoContactOnLineFontColor": "#667781",
+
+        "panelDropdownMenuBackgroundColor": "#ffffff",
+        "panelDropdownMenuItemFontColor": "#3b4a54",
+        "panelDropdownMenuItemHoverBackgroundColor": "#f0f2f5",
+
+        "panelSearchConversationsBackgroundColor": "#ffffff",
+        "panelSearchConversationsSearchTextBackgroundColor": "#f0f2f5",
+        "panelSearchConversationSearchTextIconColor": "#00a884",
+        "panelSearchConversationSearchTextFontColor": "#3b4a54",
+
+        "panelConversationsBackgroundColor": "#ffffff",
+
+        "panelConversationsUnreadBackgroundColor": "#ffffff",
+        "panelConversationsUnreadBorderColor": "#e9edef",
+        "panelConversationsUnreadTitleTextFontColor": "#008069",
+        "panelConversationsUnreadBottomMessageTextFontColor": "#3b4a54",
+
+        "panelContactHoverBackgroundColor": "#f5f6f6",
+        "panelContactAvatarBorderColor": "#e9edef",
+        "panelContactInfoBorderColor": "#e9edef",
+        "panelContactInfoDataNameFontColor": "#111B21",
+        "panelContactInfoDataLastMessageFontColor": "#666781",
+        "panelContactHoverInfoDataNameFontColor": "#111B21",
+        "panelContactHoverInfoDataLastMessageFontColor": "#666781",
+        "panelContactHoverInfoDataLastMessageIconColor": "rgba(0,0,0,.4)",
+        "panelContactUnreadInfoDataDateLastMessageFontColor": "#1fa855",
+        "panelContactUnreadInfoDataCountBackgroundColor": "#25d366",
+
+        "panelOverlayPhoneChatBackgroundColor": "#f0f2f5",
+        "panelOverlayIntroTitleMessageFontColor": "#41525D",
+        "panelOverlayIntroMessageFontColor": "#667781",
+
+        "panelConversationHistoryBackgroundColor": "#efeae2",
+
+        "panelPreviewMediaBackgroundColor": "#e9edef",
+        "panelPreviewMediaHeaderIconColor": "#54656f",
+        "panelPreviewMediaHeaderFontColor": "#111b21",
+        "panelPreviewMediaImageContainerMessageBackgroundColor": "#ffffff",
+        "panelPreviewMediaImageContainerMessageTextFontColor": "#3b4a54",
+        "panelPreviewMediaDocumentContainerBackgroundColor": "#ffffff",
+        "panelPreviewMediaDocumentContainerPreviewBackgroundColor": "#f0f2f5",
+        "panelPreviewMediaDocumentContainerPreviewFontColor": "#aebac1",
+
+        "panelMessageHistoryBackgroundColor": "#dcf8c6",
+        "panelMessageHistoryNoFromMeBackgroundColor": "#ffffff",
+        "panelMessageHistoryContainerMessageDateFontColor": "#667781",
+        "panelMessageHistoryTextFontColor": "#111b21",
+
+        "panelAudioMessagePhonesBackgroundColor": "orange",
+        "panelAudioMessageAudioPlayerOptionIconColor": "#6f8171",
+        "panelAudioMessageAudioPlayerSeekDurationFontColor": "#8696a0",
+
+        "panelEmojisBackgroundColor": "#f0f2f5",
+        "panelCategoriesEmojisIconColor": "rgba(17,37,23,.22)",
+        "panelCategoriesEmojisCategorySelectIconColor": "rgba(17,37,23,.42)",
+        "panelCategoriesEmojisCategorySelectBorderColor": "#008069",
+        "panelCategoriesEmojisTitleCategoryFontColor": "#8696A0",
+
+        "panelFooterBackgroundColor": "#f0f2f5",
+        "panelFooterIconColor": "#54656f",
+        "panelFooterIconSelectBackgroundColor": "#d1d7db",
+        "panelFooterMessageMultimediaBackgroundColor": "#ffffff",
+        "panelFooterMessageMultimediaFontColor": "#3b4a54",
+
+        "scrollBackgroundColor": "rgba(0,0,0,.2)",
+
+        "vButtonPrimaryBackgroundColor": "#008069",
+        "vButtonPrimaryBorderColor": "#008069",
+        "vButtonPrimaryFontColor": "#ffffff",
+        "vButtonSecondaryBackgroundColor": "transparent",
+        "vButtonSecondaryBorderColor": "#e9edef",
+        "vButtonSecondaryFontColor": "#008069",
+
+        "vRadioDefaultFontColor": "#3b4a54"
+    },
+    "dark": {
+        "label": "Oscuro",
+        "baseColor": "#111b21",
+
+        "panelPhoneChatBackgroundColor": "#222e35",
+        "panelPhoneChatBorderColor": "rgba(134,150,160,0.15)",
+
+        "panelOverlayBackgroundColor": "rgba(0,0,0, 0.8)",
+
+        "panelOverlayPhoneDataBackgroundColor": "#111b21",
+
+        "panelOverlayContactsHeaderBackgroundColor": "#202c33",
+        "panelOverlayContactsHeaderIconColor": "#ffffff",
+
+        "panelOverlayConfigHeaderBackgroundColor": "#202c33",
+        "panelOverlayConfigHeaderIconColor": "#ffffff",
+        "panelOverlayConfigSummaryProfileDataInfoTitleFontColor": "#e9edef",
+        "panelOverlayConfigSummaryProfileDataInfoMessageFontColor": "#8696a0",
+        "panelOverlayConfigOptionsIconColor": "#8696a0",
+        "panelOverlayConfigOptionsOptionBorderColor": "rgba(134,150,160,0.15)",
+        "panelOverlayConfigOptionsOptionFontColor": "#e9edef",
+        "panelOverlayConfigOptionsHoverOptionBackgroundColor": "#202c33",
+
+        "panelModalBackgroundColor": "#3b4a54",
+        "panelModalHeaderFontColor": "#d1d7db",
+        "panelModalHeaderIconColor": "#d1d7db",
+
+        "panelOverspreadPreviewSummaryContentOptionsIconColor": "#aebac1",
+
+        "panelHeaderBackGroundColor": "#202c33",
+        "panelHeaderIconColor": "#aebac1",
+        "panelHeaderIconSelectBackgroundColor": "#2a3942",
+        "panelHeaderInfoContactAliasFontColor": "#e9edef",
+        "panelHeaderInfoContactOnLineFontColor": "#8696a0",
+
+        "panelDropdownMenuBackgroundColor": "#233138",
+        "panelDropdownMenuItemFontColor": "#d1d7db",
+        "panelDropdownMenuItemHoverBackgroundColor": "#111b21",
+
+        "panelSearchConversationsBackgroundColor": "#111b21",
+        "panelSearchConversationsSearchTextBackgroundColor": "#202c33",
+        "panelSearchConversationSearchTextIconColor": "#00a884",
+        "panelSearchConversationSearchTextFontColor": "#d1d7db",
+        
+        "panelConversationsBackgroundColor":"#111b21",
+
+        "panelConversationsUnreadBackgroundColor": "#111b21",
+        "panelConversationsUnreadBorderColor": "rgba(134,150,160,0.15)",
+        "panelConversationsUnreadTitleTextFontColor": "#008069",
+        "panelConversationsUnreadBottomMessageTextFontColor": "#d1d7db",
+
+        "panelContactHoverBackgroundColor": "#2a3942",
+        "panelContactAvatarBorderColor": "transparent",
+        "panelContactInfoBorderColor": "rgba(134,150,160,0.15)",        
+        "panelContactInfoDataNameFontColor": "#e9edef",
+        "panelContactInfoDataLastMessageFontColor": "#8696a0",
+        "panelContactHoverInfoDataNameFontColor": "#e9edef",
+        "panelContactHoverInfoDataLastMessageFontColor": "#d1d7db",
+        "panelContactHoverInfoDataLastMessageIconColor": "#8696a0",
+        "panelContactUnreadInfoDataDateLastMessageFontColor": "#00a884",
+        "panelContactUnreadInfoDataCountBackgroundColor": "#00a884",
+
+        "panelOverlayPhoneChatBackgroundColor": "#222e35",
+        "panelOverlayIntroTitleMessageFontColor": "#e9edefe0",
+        "panelOverlayIntroMessageFontColor": "#8696a0",
+
+        "panelConversationHistoryBackgroundColor": "#0b141a",
+
+        "panelPreviewMediaBackgroundColor": "#101a20",
+        "panelPreviewMediaHeaderIconColor": "#aebac1",
+        "panelPreviewMediaHeaderFontColor": "#e9edef",
+        "panelPreviewMediaImageContainerMessageBackgroundColor": "#2b3b45",
+        "panelPreviewMediaImageContainerMessageTextFontColor": "#d1d7db",
+        "panelPreviewMediaDocumentContainerBackgroundColor": "#101a20",
+        "panelPreviewMediaDocumentContainerPreviewBackgroundColor": "#101a20",
+        "panelPreviewMediaDocumentContainerPreviewFontColor": "#aebac1",
+
+        "panelMessageHistoryBackgroundColor": "#005c4b",
+        "panelMessageHistoryNoFromMeBackgroundColor": "#202c33",
+        "panelMessageHistoryContainerMessageDateFontColor": "#ffffff99",
+        "panelMessageHistoryTextFontColor": "#e9edef",
+
+        "panelAudioMessagePhonesBackgroundColor": "orange",
+        "panelAudioMessageAudioPlayerOptionIconColor": "#d1d7db",
+        "panelAudioMessageAudioPlayerSeekDurationFontColor": "#ffffff99",
+
+        "panelEmojisBackgroundColor": "#202c33",
+        "panelCategoriesEmojisIconColor": "rgba(233,237,239,.32)",
+        "panelCategoriesEmojisCategorySelectIconColor": "#8696a0",
+        "panelCategoriesEmojisCategorySelectBorderColor": "#00a884",
+        "panelCategoriesEmojisTitleCategoryFontColor": "#667781",
+
+        "panelFooterBackgroundColor": "#202c33",
+        "panelFooterIconColor": "#8696a0",
+        "panelFooterIconSelectBackgroundColor": "#2a3942",
+        "panelFooterMessageMultimediaBackgroundColor": "#2a3942",
+        "panelFooterMessageMultimediaFontColor": "#d1d7db",
+
+        "scrollBackgroundColor": "rgba(255,255,255,0.1)",
+
+        "vButtonPrimaryBackgroundColor": "#00a884",
+        "vButtonPrimaryBorderColor": "#00a884",
+        "vButtonPrimaryFontColor": "#111b21",
+        "vButtonSecondaryBackgroundColor": "transparent",
+        "vButtonSecondaryBorderColor": "rgba(134,150,160,0.15)",
+        "vButtonSecondaryFontColor": "#00a884",
+
+        "vRadioDefaultFontColor": "#d1d7db"
+    },
+    "blue": {
+        "label": "Azul",
+        "baseColor": "#0094bf",
+
+        "panelPhoneChatBackgroundColor": "#ffffff",
+        "panelPhoneChatBorderColor": "#d1d7db",
+
+        "panelOverlayBackgroundColor": "hsla(0,0%,100%,0.85)",
+        
+        "panelOverlayPhoneDataBackgroundColor": "#ffffff",
+
+        "panelOverlayContactsHeaderBackgroundColor": "#0094bf",
+        "panelOverlayContactsHeaderIconColor": "#ffffff",
+
+        "panelOverlayConfigHeaderBackgroundColor": "#0094bf",
+        "panelOverlayConfigHeaderIconColor": "#ffffff",
+        "panelOverlayConfigSummaryProfileDataInfoTitleFontColor": "#111B21",
+        "panelOverlayConfigSummaryProfileDataInfoMessageFontColor": "#666781",
+        "panelOverlayConfigOptionsIconColor": "#0094bf",
+        "panelOverlayConfigOptionsOptionBorderColor": "#f5f6f6",
+        "panelOverlayConfigOptionsOptionFontColor": "#111b21",
+        "panelOverlayConfigOptionsHoverOptionBackgroundColor": "#f5f6f6",
+
+        "panelModalBackgroundColor": "#ffffff",
+        "panelModalHeaderFontColor": "#3b4a54",
+        "panelModalHeaderIconColor": "#0094bf",
+
+        "panelOverspreadPreviewSummaryContentOptionsIconColor": "#54656f",
+
+        "panelHeaderBackGroundColor": "#0094bf",
+        "panelHeaderIconColor": "#ffffff",
+        "panelHeaderIconSelectBackgroundColor": "#d1d7db",
+        "panelHeaderInfoContactAliasFontColor": "#ffffff",
+        "panelHeaderInfoContactOnLineFontColor": "#ffffff",
+
+        "panelDropdownMenuBackgroundColor": "#ffffff",
+        "panelDropdownMenuItemFontColor": "#3b4a54",
+        "panelDropdownMenuItemHoverBackgroundColor": "#f0f2f5",
+
+        "panelSearchConversationsBackgroundColor": "#ffffff",
+        "panelSearchConversationsSearchTextBackgroundColor": "#f0f2f5",
+        "panelSearchConversationSearchTextIconColor": "#00a884",
+        "panelSearchConversationSearchTextFontColor": "#3b4a54",
+
+        "panelConversationsBackgroundColor": "#ffffff",
+
+        "panelConversationsUnreadBackgroundColor": "#ffffff",
+        "panelConversationsUnreadBorderColor": "#e9edef",
+        "panelConversationsUnreadTitleTextFontColor": "#008069",
+        "panelConversationsUnreadBottomMessageTextFontColor": "#3b4a54",
+
+        "panelContactHoverBackgroundColor": "#f5f6f6",
+        "panelContactAvatarBorderColor": "#e9edef",
+        "panelContactInfoBorderColor": "#e9edef",
+        "panelContactInfoDataNameFontColor": "#111B21",
+        "panelContactInfoDataLastMessageFontColor": "#666781",
+        "panelContactHoverInfoDataNameFontColor": "#111B21",
+        "panelContactHoverInfoDataLastMessageFontColor": "#666781",
+        "panelContactHoverInfoDataLastMessageIconColor": "rgba(0,0,0,.4)",
+        "panelContactUnreadInfoDataDateLastMessageFontColor": "#1fa855",
+        "panelContactUnreadInfoDataCountBackgroundColor": "#25d366",
+
+        "panelOverlayPhoneChatBackgroundColor": "#f0f2f5",
+        "panelOverlayIntroTitleMessageFontColor": "#41525D",
+        "panelOverlayIntroMessageFontColor": "#667781",
+
+        "panelConversationHistoryBackgroundColor": "#efeae2",
+
+        "panelPreviewMediaBackgroundColor": "#e9edef",
+        "panelPreviewMediaHeaderIconColor": "#54656f",
+        "panelPreviewMediaHeaderFontColor": "#111b21",
+        "panelPreviewMediaImageContainerMessageBackgroundColor": "#ffffff",
+        "panelPreviewMediaImageContainerMessageTextFontColor": "#3b4a54",
+        "panelPreviewMediaDocumentContainerBackgroundColor": "#ffffff",
+        "panelPreviewMediaDocumentContainerPreviewBackgroundColor": "#f0f2f5",
+        "panelPreviewMediaDocumentContainerPreviewFontColor": "#aebac1",
+
+        "panelMessageHistoryBackgroundColor": "#dcf8c6",
+        "panelMessageHistoryNoFromMeBackgroundColor": "#ffffff",
+        "panelMessageHistoryContainerMessageDateFontColor": "#667781",
+        "panelMessageHistoryTextFontColor": "#111b21",
+
+        "panelAudioMessagePhonesBackgroundColor": "#0094bf",
+        "panelAudioMessageAudioPlayerOptionIconColor": "#6f8171",
+        "panelAudioMessageAudioPlayerSeekDurationFontColor": "#8696a0",
+
+        "panelEmojisBackgroundColor": "#f0f2f5",
+        "panelCategoriesEmojisIconColor": "rgba(17,37,23,.22)",
+        "panelCategoriesEmojisCategorySelectIconColor": "rgba(17,37,23,.42)",
+        "panelCategoriesEmojisCategorySelectBorderColor": "#0094bf",
+        "panelCategoriesEmojisTitleCategoryFontColor": "#8696A0",
+
+        "panelFooterBackgroundColor": "#f0f2f5",
+        "panelFooterIconColor": "#54656f",
+        "panelFooterIconSelectBackgroundColor": "#d1d7db",
+        "panelFooterMessageMultimediaBackgroundColor": "#ffffff",
+        "panelFooterMessageMultimediaFontColor": "#3b4a54",
+
+        "scrollBackgroundColor": "#0094bf",
+
+        "vButtonPrimaryBackgroundColor": "#0094bf",
+        "vButtonPrimaryBorderColor": "#0094bf",
+        "vButtonPrimaryFontColor": "#ffffff",
+        "vButtonSecondaryBackgroundColor": "transparent",
+        "vButtonSecondaryBorderColor": "#0094bf",
+        "vButtonSecondaryFontColor": "#0094bf",
+
+        "vRadioDefaultFontColor": "#3b4a54"
+    },
+    "orange": {
+        "label": "Naranja",
+        "baseColor": "#FF9800",
+        "panelHeaderBackGroundColor": "#FF9800",
+        "panelHeaderIconColor": "#ffffff",
+        "panelHeaderInfoContactAliasFontColor": "#ffffff",
+        "panelHeaderInfoContactOnLineFontColor": "#ffffff",
+
+        "panelOverlayContactsHeaderBackgroundColor": "#FF9800",
+        "panelOverlayConfigHeaderBackgroundColor": "#FF9800",
+        "panelOverlayConfigOptionsIconColor": "#FF9800",
+        
+        "panelModalHeaderIconColor": "#FF9800",
+
+        "panelContactsBorderColor": "#E7F2F5",
+        "panelContactHoverBackgroundColor": "#FF9800",
+        "panelContactsItemHoverInfoDataNameFontColor": "#ffffff",
+        "panelContatcsItemHoverInfoDataLastMessageFontColor": "#ffffff",
+
+        "panelFooterBackgroundColor": "#f0f2f5",
+        "panelFooterIconColor": "#54656f",        
+
+        "vButtonPrimaryBackgroundColor": "#FF9800",
+        "vButtonPrimaryBorderColor": "#FF9800",
+        "vButtonSecondaryBorderColor": "#FF9800",
+        "vButtonSecondaryFontColor": "#FF9800",
+
+        "scrollBackgroundColor": "#FF9800"
+    },
+    "purple": {
+        "label": "Morado",
+        "baseColor": "#7F1974",
+
+        "panelHeaderInfoContactAliasFontColor": "#ffffff",
+        "panelHeaderInfoContactOnLineFontColor": "#ffffff",
+
+        "panelFooterBackgroundColor": "#f0f2f5",
+        "panelFooterIconColor": "#54656f"
+    }
+}

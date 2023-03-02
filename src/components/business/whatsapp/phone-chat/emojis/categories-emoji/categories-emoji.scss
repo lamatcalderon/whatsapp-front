@@ -1,0 +1,27 @@
+@import "../../../../../../assets/styles/variables";
+
+.categories-emoji {
+    display: flex;
+    height: $panel-categories-emoji-height;
+
+    .category-emoji {
+        align-items: center;
+        color: var(--panel-categories-emojis-icon-color);
+        cursor: pointer;
+        display: flex;        
+        justify-content: center;
+        flex: 1;
+             
+        transition: all 0.5s ease-out;
+        
+        &.selected {
+            border-bottom: $pix-5 solid var(--panel-categories-emojis-category-select-border-color);
+            color: var(--panel-categories-emojis-category-select-icon-color);
+        }
+
+        span {
+            padding: .5em;
+            transform: scale(1.2);
+        }
+    }
+}

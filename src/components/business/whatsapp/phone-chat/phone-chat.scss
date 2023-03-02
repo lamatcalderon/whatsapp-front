@@ -1,0 +1,15 @@
+@import '../../../../assets/styles/variables';
+
+.phone-chat {
+    background-color: var(--panel-phone-chat-background-color);
+    height: $vh-100;
+    position: relative;
+    width: $vw-100;
+}
+
+@media (min-width: 35em) {
+    .phone-chat {
+        width: calc($vw-100 - $panel-phone-data-width);
+        border-left: $pix-1 solid var(--panel-phone-chat-border-color);
+    }
+}

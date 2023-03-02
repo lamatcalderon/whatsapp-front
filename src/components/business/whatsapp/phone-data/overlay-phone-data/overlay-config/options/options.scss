@@ -1,0 +1,39 @@
+@import "../../../../../../../assets/styles/variables";
+
+.options {
+    height: calc($per-100 - $panel-overlay-phone-data-header-height - $panel-profile-summary-overlay-phone-data-height);
+    overflow-y: auto;
+
+    .option {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        height: $pix-60;
+        padding: 0 $pix-10;
+        
+        .icon {
+            padding: $pix-10 $pix-20;
+            color: var(--panel-overlay-config-options-icon-color);
+            transform: scale(1.3);
+        }
+
+        .description {
+            border-bottom: $pix-1 solid var(--panel-overlay-config-options-option-border-color);
+            color: var(--panel-overlay-config-options-option-font-color);            
+            font-size: $pix-17;
+            min-width: $pix-200;
+            padding: $pix-20 0;
+            width: $per-100;            
+        }
+    }
+
+    .option:hover {
+        background-color: var(--panel-overlay-config-options-hover-option-background-color);
+    }
+}
+
+@media (min-width: 35em) {
+    .options {
+        height: calc($vh-100 - $panel-overlay-phone-data-header-height - $panel-profile-summary-overlay-phone-data-height);
+    }
+}

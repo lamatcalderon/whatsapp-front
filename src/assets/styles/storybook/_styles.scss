@@ -1,0 +1,55 @@
+/* ==========================================================================
+1. Estilos storybook
+========================================================================== */
+
+$prefijo: whatsapp-storybook;
+
+$per-100: 100%;
+
+$pix-10: 10px;
+$pix-14: 14px;
+$pix-20: 20px;
+$pix-28: 28px;
+
+$black: #000;
+$white: #fff;
+
+$weight-600: 600;
+
+.#{$prefijo}-contenedor {
+    background-color: $white;
+    width: $per-100;
+    height: $per-100;
+    padding: $pix-20;
+
+    .#{$prefijo}-texto{
+        color: $black;
+        font-size: $pix-14;
+    }
+
+    .#{$prefijo}-titulo {
+        color: $black;
+        padding: $pix-10 0;
+        font-size: $pix-28;
+        font-weight: $weight-600;
+    }
+
+    .#{$prefijo}-cuerpo {
+        padding: $pix-10 0;        
+
+        .#{$prefijo}-resumen {
+            text-align: justify;
+        }
+
+        .#{$prefijo}-propiedades {
+            margin-left: $pix-20;
+            list-style-type: circle;
+            list-style-position: outside;
+        }
+    }
+
+    .#{$prefijo}-historial {
+        display: flex;
+        flex-direction: column;
+    }
+}

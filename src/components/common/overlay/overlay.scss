@@ -1,0 +1,28 @@
+@import "../../../assets/styles/variables";
+
+.overlay {
+    align-items: center;
+    background-color: var(--panel-overlay-background-color);
+    display: flex;
+    justify-content: center;
+    height: $per-100;
+    position: fixed;
+    transition: all $panel-overlay-open-close-time-animation ease-in;
+    width: $per-100;
+    z-index: $panel-overlay-z-index;
+
+    &.is-open {
+        visibility: visible;
+    }
+
+    &.is-close {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 35em) {
+    .overlay { 
+        height: $vh-100;       
+    }
+}

@@ -1,0 +1,37 @@
+@import "../../../../../assets/styles/variables";
+
+.footer-phone-chat {
+    background-color: var(--panel-footer-background-color);
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 3fr 0.5fr;
+    gap: 0.2em;
+    height: $panel-footer-phone-chat-height;
+    padding: 0.5em;
+
+    .message-multimedia {
+        background-color: var(--panel-footer-message-multimedia-background-color);
+        -moz-border-radius: $pix-10;
+        border-radius: $pix-10;
+        color: var(--panel-footer-message-multimedia-font-color);
+        font-size: 0.9em;
+        overflow-y: scroll;
+        outline:0px none transparent;
+        padding: 0.5em;
+        word-break: break-all;
+        --moz-user-select: text;
+        user-select: text;
+    }
+
+    .message-multimedia:empty::before,
+    .message-multimedia:empty:focus::before {
+        content: attr(placeholder);
+        opacity: 0.6;
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 35em) {
+    .footer-phone-chat {
+        grid-template-columns: 0.2fr 0.2fr 4fr 0.2fr;
+    }
+}

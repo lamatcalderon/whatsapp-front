@@ -1,0 +1,24 @@
+@import "../../../../../assets/styles/variables";
+
+.overlay-phone-data {
+    height: $per-100;
+    overflow: hidden;
+    position: absolute;
+    transition: width 0.3s ease-in;
+    width: 0;
+    z-index: $panel-overlay-phone-data-z-index;
+
+    &.is-open {
+        width: $vw-100;
+    }
+}
+
+@media (min-width: 35em) {
+    .overlay-phone-data {
+        height: $vh-100;
+
+        &.is-open {
+            width: $panel-phone-data-width;
+        }
+    }
+}

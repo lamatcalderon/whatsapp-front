@@ -1,0 +1,60 @@
+@import "../../../../../../assets/styles/variables";
+
+.preview-image {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: $per-100;
+    justify-content: center;
+
+    .preview {
+        max-height: $pix-200;
+        max-width: $per-90;
+        padding: 0.5em 1em;
+
+        .image {
+            width: $per-100;
+            height: $per-100;
+        }
+    }
+
+    .message {
+        border-radius: $pix-10;
+        background-color: var(--panel-preview-media-image-container-message-background-color);
+        cursor: text;
+        padding: $pix-4 $pix-16;
+        margin-top: $pix-10;
+        width: $per-90;
+
+        .text {
+            color: var(--panel-preview-media-image-container-message-text-font-color);
+            margin: $pix-5;
+            max-height: $pix-90;
+            overflow-y: scroll;
+            outline: 0px none transparent;
+            word-break: break-all;
+            --moz-user-select: text;
+            user-select: text;
+        }
+
+        .text:empty::before,
+        .text:empty:focus::before {
+            content: attr(placeholder);
+            opacity: 0.6;
+            font-size: 0.9em;
+        }
+    }
+}
+
+@media (min-width: 35em) {
+    .preview-image {
+        .preview {
+            max-height: $pix-300;
+            width: $pix-300;
+        }
+
+        .message {
+            width: $per-70;
+        }
+    }
+}

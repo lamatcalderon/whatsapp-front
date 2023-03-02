@@ -1,0 +1,44 @@
+@import "../../../../../assets/styles/variables";
+
+.header-phone-chat {
+    align-items: center;
+    background-color: var(--panel-header-background-color);
+    display: flex;
+    flex-direction: row;
+    height: $panel-header-phone-chat-height;
+    padding: 0 $pix-15;
+    justify-content: space-between;
+
+    /*.data-contact {
+        align-items: center;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 1em;
+
+        .avatar-contact {
+            border-radius: $per-50;
+            cursor: pointer;
+            height: $pix-40;
+            width: $pix-40;
+    
+            .image-contact {
+                border-radius: $per-50;
+                width: $per-100;
+            }
+        }
+
+        .info-contact {
+            display: flex;
+            flex-direction: column;
+
+            span:first-child {
+                font-size: 1em;
+                color: var(--panel-header-info-contact-alias-font-color);
+            }
+            span:last-child {
+                font-size: 0.8em;
+                color: var(--panel-header-info-contact-on-line-font-color);
+            }
+        }
+    }*/
+}

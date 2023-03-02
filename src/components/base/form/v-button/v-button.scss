@@ -1,0 +1,31 @@
+@import "../../../../assets/styles/variables";
+
+.v-button {
+    background-color: $white;
+    border-radius: $pix-2;   
+    cursor: pointer;
+    font-size: $pix-14;
+    margin: $pix-2 $pix-5;
+    padding: 0.8em 1.8em;
+    text-transform: uppercase;
+    width: $per-100;
+
+    &.primary {
+        background-color: var(--v-button-primary-background-color);
+        border: $pix-1 solid var(--v-button-primary-border-color);
+        color: var(--v-button-primary-font-color);
+    }
+
+    &.secondary {
+        background-color: var(--v-button-secondary-background-color);
+        border: $pix-1 solid var(--v-button-secondary-border-color);
+        color: var(--v-button-secondary-font-color);
+    }
+}
+
+@media (min-width: 35em) {
+    .v-button {
+        width: auto;
+        margin: 0 $pix-5;
+    }    
+}

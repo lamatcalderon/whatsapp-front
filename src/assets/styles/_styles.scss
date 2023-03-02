@@ -1,0 +1,195 @@
+@import "./variables";
+@import "./whatsapp/overlay-phone-data";
+@import "./whatsapp/footer-phone-chat";
+@import "./whatsapp/dropdown-options";
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+    --panel-phone-chat-background-color: #ffffff;
+    --panel-phone-chat-border-color: #d1d7db;
+
+    --panel-overlay-background-color: hsla(0,0%,100%,0.85);
+    --panel-overlay-phone-data-background-color: #ffffff;
+    --panel-overlay-contacts-header-background-color: #008069;
+    --panel-overlay-contacts-header-icon-color: #ffffff;
+
+    --panel-overlay-config-header-background-color: #008069;
+    --panel-overlay-config-header-icon-color: #ffffff;
+    --panel-overlay-config-summary-profile-data-info-title-font-color: #111B21;
+    --panel-overlay-config-summary-profile-data-info-message-font-color: #666781;
+    --panel-overlay-config-options-icon-color: #8696a0;
+    --panel-overlay-config-options-option-border-color: #f5f6f6;
+    --panel-overlay-config-options-option-font-color: #111b21;
+    --panel-overlay-config-options-hover-option-background-color: #f5f6f6;
+
+    --panel-modal-background-color: #ffffff;
+    --panel-modal-box-shadow-color-1: rgba(11, 20, 26, .19);
+    --panel-modal-box-shadow-color-2: rgba(11, 20, 26, .24);
+    --panel-modal-header-font-color: #3b4a54;
+    --panel-modal-header-icon-color: #008069;
+
+    --panel-overspread-preview-summary-content-options-icon-color: #54656f;
+
+    --panel-header-background-color: #f0f2f5;
+    --panel-header-icon-color: #54656f;
+    --panel-header-icon-select-background-color: #d1d7db;
+
+    --panel-header-info-contact-alias-font-color: #111B21;
+    --panel-header-info-contact-on-line-font-color: #667781;
+
+    --panel-notification-update-background-color: #e1fef2;
+    --panel-notification-update-icon-background-color: #00a884;
+    --panel-notification-desktop-background-color: #53bdeb;
+    --panel-notification-desktop-icon-background-color: #ffffff;
+    --panel-notification-icon-color: #ffffff;
+
+    --panel-dropdown-menu-background-color: #ffffff;
+    --panel-dropdown-menu-item-font-color: #3b4a54;
+    --panel-dropdown-menu-item-hover-background-color: #f0f2f5;
+
+    --panel-search-conversations-background-color: #ffffff;
+    --panel-search-conversations-search-text-background-color: #f0f2f5;
+    --panel-search-conversations-search-text-icon-color: #00a884;
+    --panel-search-conversations-search-text-font-color: #3b4a54;
+    --panel-search-conversations-search-option-icon-color: #8696a0;
+    --panel-search-conversations-search-option-selected-background-color: #00A884;
+    --panel-search-conversations-search-option-selected-icon-color: #ffffff;
+
+    --panel-conversations-background-color: #ffffff;
+
+    --panel-conversations-unread-background-color: #ffffff;
+    --panel-conversations-unread-border-color: #e9edef;
+    --panel-conversations-unread-title-text-font-color: #008069;
+    --panel-conversations-unread-bottom-message-text-font-color: #3b4a54;
+
+    --panel-contact-hover-background-color: #f5f6f6;
+    --panel-contact-avatar-border-color: #e9edef;
+
+    --panel-contact-info-border-color: #e9edef;
+    --panel-contact-info-data-name-font-color: #111B21;
+    --panel-contact-info-data-last-message-font-color: #666781;
+    --panel-contact-hover-info-data-name-font-color: #111B21;
+    --panel-contact-hover-info-data-last-message-font-color: #666781;
+    --panel-contact-hover-info-data-last-message-icon-color: rgba(0,0,0,.4);
+    --panel-contact-unread-info-data-date-last-message-font-color: #1fa855;
+    --panel-contact-unread-info-data-count-background-color: #25d366;
+
+    --panel-overlay-phone-chat-background-color: #f0f2f5;
+    --panel-overlay-intro-title-message-font-color: #41525D;
+    --panel-overlay-intro-message-font-color: #667781;
+
+    --panel-conversation-history-background-color: #efeae2;
+
+    --panel-button-bottom-background-color: #ffffff;
+    --panel-button-bottom-font-color: #888D90;
+
+    --panel-preview-media-background-color: #e9edef;
+    --panel-preview-media-header-icon-color: #54656f;
+    --panel-preview-media-header-font-color: #111b21;
+    --panel-preview-media-image-container-message-background-color: #ffffff;
+    --panel-preview-media-image-container-message-text-font-color: #3b4a54;
+    --panel-preview-media-document-container-background-color: #f0f2f5;
+    --panel-preview-media-document-container-preview-font-color: #aebac1;
+    --panel-preview-media-document-container-message-background-color: #ffffff;
+    --panel-preview-media-document-container-message-text-font-color: #3b4a54;
+
+    --panel-message-history-background-color: #dcf8c6;
+    --panel-message-history-no-from-me-background-color: #ffffff;
+    --panel-message-history-container-message-date-font-color: #667781;
+    --panel-message-history-text-font-color: #111b21;
+
+    --panel-quoted-message-from-me-background-color: #d1f4cc;
+    --panel-quoted-message-no-from-me-background-color: #f5f6f6;
+
+    --panel-quoted-conversation-font-color: #667781;
+
+    --panel-audio-message-phones-background-color: orange;
+    --panel-audio-message-phones-profile-icon-font-color: #6F8171;
+    --panel-audio-message-audio-player-option-icon-color: #6f8171;
+    --panel-audio-message-audio-player-seek-duration-font-color: #8696a0;    
+
+    --panel-document-message-from-me-background-color: #d1f4cc;
+    --panel-document-message-no-from-me-background-color: #f5f6f6;
+    --panel-document-message-icon-color: 80,101,111;
+    --panel-document-message-description-name-font-color: #111B21;
+    --panel-document-message-description-features-font-color: #8696A0;
+    --panel-document-message-text-message-font-color: #111B21;
+
+    --panel-emojis-background-color: #f0f2f5;
+    
+    --panel-categories-emojis-icon-color: rgba(17,37,23,.22);
+    --panel-categories-emojis-category-select-icon-color: rgba(17,37,23,.42);
+    --panel-categories-emojis-category-select-border-color: #008069;
+    --panel-categories-emojis-title-category-font-color: #8696A0;
+
+    --panel-footer-background-color: #f0f2f5;
+    --panel-footer-icon-color: #54656f;
+    --panel-footer-icon-select-background-color: #d1d7db;
+    --panel-footer-message-multimedia-background-color: #ffffff;
+    --panel-footer-message-multimedia-font-color: #3b4a54;
+
+    --scroll-background-color: rgba(0,0,0,.2);
+
+    --v-button-primary-background-color: #008069;
+    --v-button-primary-border-color: #008069;
+    --v-button-primary-font-color: #ffffff;
+    --v-button-secondary-background-color: transparent;
+    --v-button-secondary-border-color: #e9edef;
+    --v-button-secondary-font-color: #008069;
+
+    --v-radio-default-font-color: #3b4a54;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+::-webkit-scrollbar {
+    height: $pix-5;
+    width: $pix-5;
+}
+
+::-webkit-scrollbar-thumb {
+    //background: #25d366;
+    background: var(--scroll-background-color);
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+
+    &.justify-content-space-between {
+        justify-content: space-between;
+    }
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-history-text {
+    color: var(--panel-message-history-text-font-color);
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.space-message-history {
+    display: inline-block;
+    width: $pix-60; 
+}
+
+.#{$app-prefix}-image {
+    height: $per-100;
+    width: $per-100;
+}

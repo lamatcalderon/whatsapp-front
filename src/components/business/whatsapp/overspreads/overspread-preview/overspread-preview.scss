@@ -1,0 +1,20 @@
+@import "../../../../../assets/styles/variables";
+@import "../../../../../assets/styles/whatsapp/animation-keyframes";
+
+.overspread-preview {    
+    background-color: var(--panel-overlay-background-color);
+    height: $per-100;
+    position: fixed;
+    width: $per-100;
+    z-index: $panel-overspread-z-index;
+
+    &.is-open {
+        animation: keyframe-scale-show $panel-modal-open-close-time-animation;
+        transform-origin: top right;
+    }
+
+    &.is-close {
+        animation: keyframe-scale-hide $panel-modal-open-close-time-animation;
+        transform-origin: left bottom;
+    }
+}
