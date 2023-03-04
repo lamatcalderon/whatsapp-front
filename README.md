@@ -1,6 +1,6 @@
 # Whatsapp Web
 
-<p style='text-align: justify;'> Este es un proyecto web desarrollado en vue versión 3.2.13. Su principal función es visualizar un historial de conversaciones de whatsapp. </p>
+<p style='text-align: justify;'> Este es un proyecto web desarrollado en vue versión 3.2.13. Su principal función es visualizar un historial de conversaciones de whatsapp. El aplicativo se encuentra en el siguiente <a href="https://lmac-whatsapp.netlify.app/" target="_blank">enlace</a>.</p>
 
 <p align="center">
     <img src="https://hme-mf-resources.netlify.app/src/assets/hme-mf-resources/images/whatsapp-normal.png"/>
